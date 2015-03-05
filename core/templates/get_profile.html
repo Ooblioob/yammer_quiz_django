@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for profile in quiz_profiles %}
+	<span>
+		<img src={{profile.pic}} style="width: 19%; height: 19%"></img>
+	</span>
+{% endfor %}
+
+<h3>{{question}}</h3>
+
+{% endblock content %}

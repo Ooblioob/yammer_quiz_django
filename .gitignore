@@ -1,0 +1,4 @@
+/.vagrant
+/static
+*.pyc
+/yammer_quiz_django/settings/local.py
